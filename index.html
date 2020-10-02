@@ -18,15 +18,21 @@
             <h4>Time Remaining:<span id=time></span></h4> 
         </div>
         <button id="start">START</button>
-        <div class="container-quiz">
-            <ul class="quiz">
-                <h4 id=question></h4>
-                <li id="A"></li>
-                <li id="B"></li>
-                <li id="C"></li>
-                <li id="D"></li>
-            </ul>
-        </div>
+        <div class="quiz-container">
+            <div id="quiz"></div>
+        </div>    
+            <button id="previous">Previous Question</button>
+            <button id="next">Next Question</button>
+            <button id="submit">Submit Quiz</button>
+        
+            <div id="results"></div>
+            <div class="saveGame" id="saveGameContainer">
+                <label for="save">Enter your initials to save your quiz score</label>
+                <input type="text" id="saveInt" name="save"> 
+                <button id="saveBtn">Save</button>
+                <h4 id="savedIntOutput"></h4>
+                <h4 id="savedScore"></h4>
+            </div>
 
     </div>
     
